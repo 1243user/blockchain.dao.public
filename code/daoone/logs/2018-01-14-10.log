@@ -1,0 +1,8 @@
+[2018-01-14T10:20:46.864] [ERROR] policy - 微信登录请求报文：{"head":{"channelNo":"","transactionNo":"","requestCode":"","timeStamp":""},"body":{"userId":"testsysadmin","userName":"22"}}
+[2018-01-14T10:20:46.869] [INFO] policy - 微信登录请求报文：{"head":{"channelNo":"","transactionNo":"","requestCode":"","timeStamp":""},"body":{"userId":"testsysadmin","userName":"22"}}
+[2018-01-14T10:21:28.594] [ERROR] policy - 微信登录返回报文：{"head":{"channelNo":"","transactionNo":"","requestCode":"","timeStamp":"","errorCode":"0","errorMsg":"成功"},"body":{"userId":"testsysadmin","userName":"22"}}
+[2018-01-14T10:21:29.147] [INFO] policy - 微信登录返回报文：{"head":{"channelNo":"","transactionNo":"","requestCode":"","timeStamp":"","errorCode":"0","errorMsg":"成功"},"body":{"userId":"testsysadmin","userName":"22"}}
+[2018-01-14T10:23:37.738] [DEBUG] policy - 微信登录请求报文：{"head":{"channelNo":"","transactionNo":"","requestCode":"","timeStamp":""},"body":{"userId":"testsysadmin","userName":"22"}}
+[2018-01-14T10:23:48.391] [DEBUG] policy - 微信登录返回报文：{"head":{"channelNo":"","transactionNo":"","requestCode":"","timeStamp":"","errorCode":"0","errorMsg":"成功"},"body":{"userId":"testsysadmin","userName":"22"}}
+[2018-01-14T10:26:22.097] [DEBUG] policy - 微信登录请求报文：{"head":{"channelNo":"","transactionNo":"","requestCode":"","timeStamp":""},"body":{"userId":"testsysadmin","userName":"22"}}
+[2018-01-14T10:26:25.281] [DEBUG] policy - 微信登录返回报文：{"head":{"channelNo":"","transactionNo":"","requestCode":"","timeStamp":"","errorCode":"0","errorMsg":"成功"},"body":{"userId":"testsysadmin","userName":"22"}}
