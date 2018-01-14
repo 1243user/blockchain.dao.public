@@ -10,6 +10,7 @@
 1项目技术栈
     node 最新版本
     mysql 5.6
+    参考地址  https://www.cnblogs.com/kazetotori/p/6243233.html
 
 
 2项目目录说明
@@ -57,6 +58,7 @@
 
 
 
-6 添加
+6一个测试类
+    http://127.0.0.1:8001/daoone/test/test
 
 

@@ -1,7 +1,7 @@
 'use strict';
 const AdminLoginWeiXinResponse = require('../../models/admin/AdminLoginWeiXinResponse')
 
-exports.loginWeiXinBusiness = async function(req) {
+exports.test = async function(req) {
 
     let adminLoginWeiXinResponse = new AdminLoginWeiXinResponse();
     adminLoginWeiXinResponse.ret.head.errorCode = '0' ;
@@ -25,7 +25,7 @@ exports.loginWeiXinBusiness = async function(req) {
         adminLoginWeiXinResponse.ret.body.userName = ret[0].userName;
     }catch(e){
         await global.mysqlConn.poolQueryRollback();
-        logger.debug('微信登录请求异常：' + e.message)
+        logger.debug('而是请求异常：' + e.message)
         adminLoginWeiXinResponse.ret.head.errorCode = '1' ;
         adminLoginWeiXinResponse.ret.head.errorMsg = e.message;
     }

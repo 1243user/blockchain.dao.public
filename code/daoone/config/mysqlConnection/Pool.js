@@ -5,7 +5,16 @@ const PoolConnection = require('./Connection').PoolConnection;
 var $originPool = Symbol('originPool');
 var $isAlive = Symbol('isAlive');
 
-
+/**
+ * This function is the factory of the standard promise callback.
+ 这是一个 promise 的方法
+ */
+function promiseFn(resolve, reject) {
+    return (err, rst) => {
+        if (err) reject(err);
+        else resolve(rst);
+    }
+}
 /**
  * Pool is the class that contains functions each returns promise.
  * These functions are just converted from the Mysql.Pool object.
@@ -84,6 +93,7 @@ class Pool {
             this[$originPool].query(...args);
         });
     }
+
 }
 
 
